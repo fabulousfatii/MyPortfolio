@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "IBM Plex Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+#home{
+  background: rgb(187,32,174);
+  background: linear-gradient(90deg, rgb(129, 31, 124) 17%, rgba(30,18,172,1) 59%);
+}
+.italic{
+  font-style: italic;
+  font-weight: 500;
+}
+/* border: 2px solid;
+
+border-image-source: linear-gradient(180deg, #4D1987 0%, #8F1985 100%); */
+
+
+.gradienttext{
+ 
+  background: linear-gradient(90deg, rgba(171,65,196,1) 10%, rgba(255,108,99,1) 32%, rgba(255,177,71,1) 53%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradienttext2{
+ 
+  background: linear-gradient(90deg, rgb(196, 34, 161) 10%, rgba(255,108,99,1) 34%, rgba(255,177,71,1) 53%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gradientbackground{
+ 
+  background: rgb(185,91,207);
+background: linear-gradient(90deg, rgba(185,91,207,1) 15%, rgba(255,108,99,1) 46%, rgba(254,187,97,1) 73%);
+}
+.coffee{
+  background-image: url('./assets/coffeebackground.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.project1{
+  background-image: url("./assets/project1.png");
+  background-position: center;
+  background-size: cover;
+}
+.project2{
+  background-image: url("./assets/project2.png");
+  background-position: center;
+  background-size: cover;
+}
+.project3{
+  background-image: url("./assets/project3.png");
+  background-position: center;
+  background-size: cover;
+}
+.quote{
+ font-family: "Homenaje", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ text-transform: uppercase;
+}
+
+
+.gradientborder {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #ff69b4, #f76d11,#e0d212) 5;
+  border-radius: 30%;
+  border-top: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  
+  button {
+    background-color: #f9f9f9;
+  }
+}
