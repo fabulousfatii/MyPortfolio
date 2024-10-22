@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Eatnow from './pages/Eatnow.jsx'
 import Cheeze from './pages/Cheeze.jsx'
-import Coffee from './pages/coffee.jsx'
+import Coffee from './pages/Coffee.jsx'
 import {Route,Routes,BrowserRouter} from "react-router-dom"
 
 
