@@ -25,8 +25,8 @@ function About() {
       </div></div>
 
       <div className='flex justify-end'>
-      <div className='w-[87%] h-full rounded-2xl gradientbackground p-10  text-white max-md:w-full max-md:flex-col '>
-          <div className='flex max-sm:flex-col p-3 justify-between max-md:flex-col'>
+      <div className='max-lg:w-[87%] md:w-[87%] xl:w-[94%] h-full rounded-2xl gradientbackground p-10  text-white max-md:w-full max-md:flex-col '>
+          <div className='flex max-sm:flex-col p-3 ml-10 justify-between max-md:flex-col'>
             <div>
               <h1 className='text-4xl font-serif '>My Education</h1>
               <h2 className=' text-2xl m-3 c font-serif'>Schooling:</h2>

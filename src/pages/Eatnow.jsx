@@ -12,16 +12,16 @@ import thanks from '../assets/eatnow11.png'
 function Eatnow() {
     return (
         <div className='w-full h-full bg-white'>
-            <img src={home} alt="" />
-            <img src={about} alt="" />
-            <img src={design} alt="" />
-            <img src={typography} alt="" />
-            <img src={visual} alt="" />
-            <img src={logicscreen} alt="" />
-            <img src={homescreen} alt="" />
-            <img src={final} alt="" />
-            <img src={personal} alt="" />
-            <img src={thanks} alt="" />
+            <img src={home}  width={4000} alt="" />
+            <img src={about}  width={4000} alt="" />
+            <img src={design}  width={4000} alt="" />
+            <img src={typography}  width={4000} alt="" />
+            <img src={visual}  width={4000} alt="" />
+            <img src={logicscreen}  width={4000} alt="" />
+            <img src={homescreen}  width={4000} alt="" />
+            <img src={final}  width={4000} alt="" />
+            <img src={personal}  width={4000} alt="" />
+            <img src={thanks}  width={4000} alt="" />
 
 
         </div>

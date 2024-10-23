@@ -60,7 +60,7 @@ function Services() {
           </div>
 
           <div>
-              <img className='ml-7 max-md:hidden' width={250} height={250} src={services2} alt="" />
+              <img className='ml-7 max-md:hidden'  src={services2} alt="" />
           </div>
         </div>
       </div>

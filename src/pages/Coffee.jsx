@@ -8,7 +8,7 @@ import finalization from '../assets/coffee4.png'
 function Coffee() {
     return (
         <div className='w-full h-full coffee '>
-            <img src={home} alt="" />
+            <img className='' width={4000} src={home} alt="" />
             <div className='p-10'>
                 <h1 className='ml-20 text-5xl font-semibold'>On-boarrding</h1>
               <img src={boarding} alt="" />
