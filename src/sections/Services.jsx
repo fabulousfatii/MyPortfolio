@@ -37,7 +37,7 @@ function Services() {
 
 
         <h1 className='font-extrabold text-4xl gradienttext '>MY DESIGN PROCESS:</h1>
-        <div className='flex text-black border-2 m-5 p-2 rounded-2xl border-opacity-30 gap-8 gradientborder max-sm:flex-col'>
+        <div className='flex justify-evenly text-black border-2 m-5 p-2 rounded-2xl border-opacity-30 gap-8 gradientborder max-sm:flex-col'>
         
           <div className='mr-8'>
             <h1 className='text-orange-500 text-4xl font-bold'>1.</h1>

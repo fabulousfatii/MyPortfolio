@@ -26,15 +26,15 @@ function About() {
 
       <div className='flex justify-end'>
       <div className='max-lg:w-[87%] md:w-[87%] xl:w-[94%] h-full rounded-2xl gradientbackground p-10  text-white max-md:w-full max-md:flex-col '>
-          <div className='flex max-sm:flex-col p-3 ml-10 justify-between max-md:flex-col'>
+          <div className='flex max-sm:flex-col p-3 ml-10 justify-center xl:justify-between gap-32 max-md:flex-col'>
             <div>
-              <h1 className='text-4xl font-serif '>My Education</h1>
-              <h2 className=' text-2xl m-3 c font-serif'>Schooling:</h2>
-              <p className='ml-9'>The Educators School with 85% marks</p>
-              <h2 className=' text-2xl m-3 font-serif ml-5'>Intermediate:</h2>
-              <p className='ml-9'>from Superior college with 75% marks</p>
-              <h2 className=' text-2xl m-3 font-serif ml-5'>Bachelors:</h2>
-              <p className='ml-9'>BSCS from Virtual University of Pakistan . <br /> Continue</p>
+              <h1 className='text-4xl 2xl:text-6xl font-serif '>My Education</h1>
+              <h2 className=' text-2xl 2xl:text-6xl m-3 c font-serif'>Schooling:</h2>
+              <p className='2xl:text-xl'>The Educators School with 85% marks</p>
+              <h2 className=' text-2xl 2xl:text-6xl m-3 font-serif '>Intermediate:</h2>
+              <p className='2xl:text-xl'>from Superior college with 75% marks</p>
+              <h2 className=' text-2xl 2xl:text-6xl m-3 font-serif '>Bachelors:</h2>
+              <p className='2xl:text-xl'>BSCS from Virtual University of Pakistan . <br /> Continue</p>
             </div>
             <img className='p-6 w-1/3' src={about2} alt="" />
           </div>
