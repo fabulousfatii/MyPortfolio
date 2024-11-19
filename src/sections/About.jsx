@@ -6,7 +6,7 @@ function About() {
     return (
             <section id='about' className='w-full h-full bg-slate-50 p-8 pr-0 text-black '>
       <div className='flex justify-end '>
-      <div className='w-[85%] h-full max-md:w-full max-md:flex-col '>
+      <div className='w-[85%] h-screen max-md:h-full max-md:w-full max-md:flex-col '>
         <h4 className='italic'>Nice to meet you!</h4>
         <h1 className='font-bold text-4xl gradienttext'>Welcome...</h1>
         <div className='flex gap-8'>
@@ -27,7 +27,7 @@ function About() {
       <div className='flex justify-end'>
       <div className='max-lg:w-[87%] md:w-[87%] xl:w-[94%] h-full rounded-2xl gradientbackground p-10  text-white max-md:w-full max-md:flex-col '>
           <div className='flex max-sm:flex-col p-3 ml-10 justify-center xl:justify-between gap-32 max-md:flex-col'>
-            <div>
+            <div className='ml-20'>
               <h1 className='text-4xl 2xl:text-6xl font-serif '>My Education</h1>
               <h2 className=' text-2xl 2xl:text-6xl m-3 c font-serif'>Schooling:</h2>
               <p className='2xl:text-xl'>The Educators School with 85% marks</p>
@@ -44,8 +44,8 @@ function About() {
         <div  className='flex justify-end'>
         <div className='w-[85%] h-full flex justify-between  p-4 px-10 max-md:w-full max-md:px-0 max-sm:flex-col'>
       <div className='p-7 w-1/3 max-sm:w-full'>
-      <h1 className='font-bold text-4xl gradienttext '>My skills</h1>
-      <p className='text-lg text-wrap'>My <span className='text-purple-600'>passion</span> lies in creating seamless interactions that <span className='text-orange-600'>elevate</span> digital products to new levels of <span className='text-teal-600'>usability</span> and <span className='text-pink-600'>aesthetics</span>.</p>
+      <h1 className='font-bold text-5xl gradienttext '>My skills</h1>
+      <p className='text-xl text-wrap'>My <span className='text-purple-600'>passion</span> lies in creating seamless interactions that <span className='text-orange-600'>elevate</span> digital products to new levels of <span className='text-teal-600'>usability</span> and <span className='text-pink-600'>aesthetics</span>.</p>
       </div>        
       <div className='mr-8'>
        <h2 className='font-semibold text-lg'>User Interface</h2>

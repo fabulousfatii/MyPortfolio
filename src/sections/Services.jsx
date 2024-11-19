@@ -6,7 +6,7 @@ function Services() {
     return (
         <section id='services' className='w-full h-full bg-white p-5'>
       <div className='flex justify-end' >
-      <div className='w-[85%] h-full max-md:w-full max-md:flex-col '>
+      <div className='w-[83%] h-full max-md:w-full max-md:flex-col '>
       <h1 className='font-extrabold text-4xl gradienttext '>MY SERVICES:</h1>
         <div className='flex text-black border-2 m-5 p-2 rounded-2xl gradientborder '>
         
@@ -37,7 +37,7 @@ function Services() {
 
 
         <h1 className='font-extrabold text-4xl gradienttext '>MY DESIGN PROCESS:</h1>
-        <div className='flex justify-evenly text-black border-2 m-5 p-2 rounded-2xl border-opacity-30 gap-8 gradientborder max-sm:flex-col'>
+        <div className='flex  justify-evenly text-black border-2 m-5 p-2 rounded-2xl border-opacity-30 gap-8 gradientborder max-sm:flex-col'>
         
           <div className='mr-8'>
             <h1 className='text-orange-500 text-4xl font-bold'>1.</h1>
@@ -60,7 +60,7 @@ function Services() {
           </div>
 
           <div>
-              <img className='ml-7 max-md:hidden'  src={services2} alt="" />
+              <img className='ml-7 max-md:hidden w-72'  src={services2} alt="" />
           </div>
         </div>
       </div>

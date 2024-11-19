@@ -40,7 +40,7 @@ function App() {
 
   return (
    <main className='min-w-screen-sm '>
-    <nav className='fixed w-[200px] h-full bg-black p-5 max-sm:hidden max-md:hidden'>
+    <nav className='fixed w-56 h-full bg-black p-5 max-sm:hidden max-md:hidden'>
       {/* <h3 className='text-xl mt-4 font-["Prata"]'>HAMZA SALEEM</h3> */}
       <img src={name} alt="" />
       <ul className='mt-20 font-medium'>
@@ -88,12 +88,15 @@ function App() {
  
          </div>
        </div>
-       <div className='flex justify-end '>
-       <div className='lg:w-[85%] md:w-[85%] h-screen xl:w-[96%] gradientbackground flex gap-7 md:gap-3 justify-center items-center p-10 max-md:w-full max-md:flex-col'>
-         <p className='text-6xl p-10 text-center quote ml-16  '>
+     </section>
+
+     <section className='gradientbackground w-full h-full'>
+     <div className='flex justify-end '>
+       <div className='lg:w-[85%] md:w-[85%] h-screen xl:w-[96%] gradientbackground flex gap-10 md:gap-3 justify-center items-center p-10 max-md:w-full max-md:flex-col'>
+         <p className='text-6xl lg:pl-20  text-center quote lg:ml-20  2xl:text-7xl text-wrap    '>
          ‘‘ design is not just what it works like and feels like. design is how it works ’’
          </p>
-         <img className='p-16' src={quote} width={450} height={300} alt="" />
+         <img className=' p-16 max-sm:hidden w-1/3 ' src={quote}  alt="" />
        </div>
        </div>
      </section>
