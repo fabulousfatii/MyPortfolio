@@ -4,7 +4,7 @@ import about2 from "../assets/education.png"
 
 function About() {
     return (
-            <section id='about' className='w-full h-full bg-slate-50 p-8 pr-0 text-black '>
+            <section id='about' className='w-full h-full bg-slate-50 p-8 max-sm:p-0 pr-0 text-black '>
       <div className='flex justify-end '>
       <div className='w-[85%] h-screen max-md:h-full max-md:w-full max-md:flex-col '>
         <h4 className='italic'>Nice to meet you!</h4>
@@ -25,9 +25,9 @@ function About() {
       </div></div>
 
       <div className='flex justify-end'>
-      <div className='max-lg:w-[87%] md:w-[87%] xl:w-[94%] h-full rounded-2xl gradientbackground p-10  text-white max-md:w-full max-md:flex-col '>
-          <div className='flex max-sm:flex-col p-3 ml-10 justify-center xl:justify-between gap-32 max-md:flex-col'>
-            <div className='ml-20'>
+      <div className='max-lg:w-[87%] md:w-[87%] xl:w-[94%] sm:w-full h-full rounded-2xl gradientbackground p-10 max-sm:p-4 text-white max-md:w-full max-md:flex-col '>
+          <div className='flex max-sm:flex-col p-3 ml-10 max-sm:ml-0 justify-center xl:justify-between gap-32 max-md:flex-col'>
+            <div className='lg:ml-20 sm:ml-0 '>
               <h1 className='text-4xl 2xl:text-6xl font-serif '>My Education</h1>
               <h2 className=' text-2xl 2xl:text-6xl m-3 c font-serif'>Schooling:</h2>
               <p className='2xl:text-xl'>The Educators School with 85% marks</p>
