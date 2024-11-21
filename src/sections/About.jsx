@@ -4,13 +4,13 @@ import about2 from "../assets/education.png"
 
 function About() {
     return (
-            <section id='about' className='w-full h-full bg-slate-50 p-8 max-sm:p-0 pr-0 text-black '>
-      <div className='flex justify-end '>
+            <section id='about' className='w-full h-full bg-slate-50 p-8 max-sm:p-5 pr-0 text-black '>
+      <div className='flex justify-end p-8 '>
       <div className='w-[85%] h-screen max-md:h-full max-md:w-full max-md:flex-col '>
         <h4 className='italic'>Nice to meet you!</h4>
         <h1 className='font-bold text-4xl gradienttext'>Welcome...</h1>
         <div className='flex gap-8'>
-          <img className='p-6 w-1/3 max-md:hidden' src={about} alt="" />
+          <img className='p-6 w-1/3 max-md:hidden  ' src={about} alt="" />
           <div className='pt-16'>
             <h2 className='text-5xl font-extrabold px-3 gradienttext'>ABOUT ME</h2>
             <p className='p-3 font-serif text-xl'>I am <span className='text-pink-500'>21</span> years old from <span className='text-orange-500'>Lahore</span>. From a young age, I was captivated by the world of <span className='text-pink-600'>design</span> and art. I spent countless hours experimenting with <span className='text-teal-500'>colors</span>, <span className='text-pink-500'>shapes</span>, and <span className='text-purple-500'>materials</span>, discovering the power of design to convey emotions and tell stories.
@@ -36,12 +36,12 @@ function About() {
               <h2 className=' text-2xl 2xl:text-6xl m-3 font-serif '>Bachelors:</h2>
               <p className='2xl:text-xl'>BSCS from Virtual University of Pakistan . <br /> Continue</p>
             </div>
-            <img className='p-6 w-1/3' src={about2} alt="" />
+            <img className='p-6 w-1/3 max-md:hidden' src={about2} alt="" />
           </div>
           </div>
 
         </div>
-        <div  className='flex justify-end'>
+        <div  className='flex justify-end p-6'>
         <div className='w-[85%] h-full flex justify-between  p-4 px-10 max-md:w-full max-md:px-0 max-sm:flex-col'>
       <div className='p-7 w-1/3 max-sm:w-full'>
       <h1 className='font-bold text-5xl gradienttext '>My skills</h1>
